@@ -9,8 +9,8 @@ import addRecipeView from './views/addRecipeView.js';
 
 import 'core-js/stable';
 import 'regenerator-runtime/runtime';
-import Fraction from 'fraction.js';
 import { async } from 'regenerator-runtime';
+import Fraction from 'fraction.js';
 
 // Example usage
 const fraction = new Fraction(1, 2);
