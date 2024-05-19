@@ -12,6 +12,10 @@ import 'regenerator-runtime/runtime';
 import Fraction from 'fraction.js';
 import { async } from 'regenerator-runtime';
 
+// Example usage
+const fraction = new Fraction(1, 2);
+console.log(fraction.toString()); // "1/2"
+
 const controlRecipes = async function () {
   try {
     const id = window.location.hash.slice(1);
